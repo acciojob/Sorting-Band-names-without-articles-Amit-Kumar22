@@ -1,4 +1,5 @@
 //your code here
+let bands = ['The Virupaksha Temple', 'Victoria Memorial', 'Tajmahal'];
 function strip (word) {
     let regex = new RegExp('^(a |the |an )', 'i')
     return word.replace(regex, '').trim()
