@@ -11,5 +11,5 @@ document.write(sortedBands);
 /** 
  * add ul list in HTML
  **/
-document.querySelector('#bands').innerHTML = 
+document.querySelector('#band').innerHTML = 
     sortedBands.map(item => `<li>${item}</li>`).join('')
